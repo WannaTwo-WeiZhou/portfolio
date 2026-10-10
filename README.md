@@ -51,9 +51,11 @@ python3 -m http.server 8080   # 然后打开 http://localhost:8080/
 
 ## 待办
 
-- 源视频已齐：22 条条目全部有 `_src/` 源文件；本地汇总目录为 `~/Documents/Pictures/作品`（2026-10 从中补齐最后 4 段）。
-- `manifest.json` 中标 `"inferred": true` 的条目（Boxygeon2 的 7 段录屏）是**按录制时间与项目周期推断**的归属，需人工确认。
-- `tags` 里含「待补充」的条目（`clip-0816` / `clip-5128` / `clip-1518` / `clip-3198` / `clip-2025-01-26` /
-  `clip-1214` / `clip-1215` / `clip-0084`）需要补标题与说明。
+- 源视频已齐：16 条条目全部有 `_src/` 源文件；本地汇总目录为 `~/Documents/Pictures/作品`。
+- 全部条目的标题与说明已于 2026-10-10 按项目事实校对：原 8 条占位的「试玩录像 <编号>」已改写，
+  `clip-*` 占位 slug 也一并改成语义化 slug（`merge-ugc-2026` / `tiaohe-2019` / `eye-tracking-2016` …）。
+- 已删除 6 段重复录屏（2019-01 的 `ScreenRecording_*`）：三段分别与 Theater / AvocadoReborn /
+  TungstenAvocado 重复；另三段为 Doodle 联机对战、Boxygeon 联机菜单与对战、网格滚球物理解谜原型，
+  与已有卡片重复。源文件仍留在 `_src/`，需要时可重新收录。
 - Slack 只能读到「出现在 Hermes 所在会话里的文件」：只贴 permalink 而文件本身在别处时，`files.info` 返回
   `file_not_found`。缺件时请把文件重新发到 DM（见 `hermes-slack-gateway` 技能的 `fetch-slack-file.py`）。

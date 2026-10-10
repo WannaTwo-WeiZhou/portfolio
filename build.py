@@ -103,6 +103,8 @@ def main():
         "starling-2019": "https://www.bilibili.com/video/BV11R4y1T7Kr/",
         "defects-2020": "https://www.bilibili.com/video/BV1yi4y1g7vw/",
         "xiaochenai-2021": "https://www.bilibili.com/video/BV1Zh411h79w/",
+        "luomiou-2025": "https://www.bilibili.com/video/BV1ELFNeMEB4/",
+        "niuma-2024": "https://www.bilibili.com/video/BV14uCBYYEJd/",
     }
 
     ready = pending = 0
