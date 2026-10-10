@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "个人作品集",
+    "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
+    "updated": "2026-10-10"
+  },
+  "playable": [
+    {
+      "id": "shield-core",
+      "title": "ShieldCore",
+      "subtitle": "独立游戏 · 开发中",
+      "year": "2026",
+      "tags": ["独立游戏", "WebGL", "可在线试玩"],
+      "desc": "正在开发的独立游戏，主分支 demo 已部署到 GitHub Pages，可直接在浏览器里试玩（WebGL）。",
+      "url": "https://wannatwo-weizhou.github.io/shield-core/",
+      "status": "ready"
+    }
+  ],
+  "videos": [
+    {
+      "id": "F0C7RPCSGJK",
+      "slug": "tungsten-avocado-2016",
+      "title": "TungstenAvocado",
+      "year": "2016",
+      "project": "TungstenAvocado",
+      "tags": ["公司项目", "2D", "实时对战", "卡牌"],
+      "desc": "2D 卡牌实时对战（类似皇室战争）。负责高定制化手势模块（组合选牌、单点/区域施法）、Unity Tilemap 解析模块、A* 寻路与高复用英雄/怪物生产模块。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C80U8P02F",
+      "slug": "avocado-reborn-2017",
+      "title": "AvocadoReborn",
+      "year": "2017",
+      "project": "AvocadoReborn",
+      "tags": ["公司项目", "多人合作", "Photon"],
+      "desc": "多人实时合作闯关。负责 Spine IK 骨骼控制、行为树怪物 AI、json.net + PlayerPrefs + iCloud 防篡改存储模块、策划数据表 ↔ Prefab 双向修改模块。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C8574DW86",
+      "slug": "doodle-2018",
+      "title": "Doodle",
+      "year": "2018",
+      "project": "Doodle",
+      "tags": ["公司项目", "多人对战", "Shader"],
+      "desc": "多人实时对战涂鸦抢地盘 io 游戏（类似乌贼娘），前后实现 3D 与 2D 两个版本。负责 TextureRender + RawImage + Shader 涂色方案与点对点队列触摸操作模块。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C8ASBB9AQ",
+      "slug": "boxygeon2-2018-12-27",
+      "title": "Boxygeon2 · 2018-12-27",
+      "year": "2018",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike", "关卡编辑器"],
+      "desc": "竖版单手操作战斗 roguelike（类似以撒的结合），三个主题关卡各含 10 关与 boss 关。负责定制关卡编辑器、基于随机种子的关卡进度存储、行为树 AI 与怪物工厂。",
+      "status": "ready",
+      "inferred": true
+    },
+    {
+      "id": "F0C81SKKR37",
+      "slug": "boxygeon2-2019-01-16-a",
+      "title": "Boxygeon2 · 2019-01-16 13-06",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C91H6NF2L",
+      "slug": "boxygeon2-2019-01-16-b",
+      "title": "Boxygeon2 · 2019-01-16 13-16",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C8ARR3EUU",
+      "slug": "boxygeon2-2019-01-16-c",
+      "title": "Boxygeon2 · 2019-01-16 13-43",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C8937AR8R",
+      "slug": "boxygeon2-2019-01-17-a",
+      "title": "Boxygeon2 · 2019-01-17 10-36",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C893JHAM7",
+      "slug": "boxygeon2-2019-01-17-b",
+      "title": "Boxygeon2 · 2019-01-17 10-49",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C85410Z62",
+      "slug": "boxygeon2-2019-01-17-c",
+      "title": "Boxygeon2 · 2019-01-17 13-07",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike"],
+      "desc": "Boxygeon2 关卡与战斗录屏。",
+      "status": "pending",
+      "inferred": true
+    },
+    {
+      "id": "F0C857RDKF0",
+      "slug": "starling-2019",
+      "title": "Starling",
+      "year": "2019",
+      "project": "Starling",
+      "tags": ["GameJam", "解谜", "IndiaGameCamp2019"],
+      "desc": "IndiaGameCamp2019 参赛作品，益智类连线解谜游戏。另有完整演示视频：https://www.bilibili.com/video/BV11R4y1T7Kr/",
+      "status": "ready"
+    },
+    {
+      "id": "F0C7RR4C0QP",
+      "slug": "defects-2020",
+      "title": "Defects",
+      "year": "2020",
+      "project": "Defects",
+      "tags": ["GameJam", "节奏", "CIGA2020"],
+      "desc": "CIGA2020 参赛作品，益智类节奏游戏。另有完整演示视频：https://www.bilibili.com/video/BV1yi4y1g7vw/",
+      "status": "pending"
+    },
+    {
+      "id": "F0C91JLLV96",
+      "slug": "xiaochenai-2021",
+      "title": "一颗小尘埃",
+      "year": "2021",
+      "project": "一颗小尘埃",
+      "tags": ["GameJam", "IO", "CIGA2021"],
+      "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。另有完整演示视频：https://www.bilibili.com/video/BV1Zh411h79w/",
+      "status": "pending"
+    },
+    {
+      "id": "F0C7RQU7F55",
+      "slug": "clip-0816",
+      "title": "试玩录像 0816",
+      "year": "",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 IMG_0816.mp4）。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C857LNMSS",
+      "slug": "clip-5128",
+      "title": "试玩录像 5128",
+      "year": "",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 5128.MP4）。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C80VB44R1",
+      "slug": "clip-1518",
+      "title": "试玩录像 1518",
+      "year": "",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 IMG_1518.TRIM.MOV）。",
+      "status": "pending"
+    },
+    {
+      "id": "F0C895XQ0AD",
+      "slug": "clip-3198",
+      "title": "试玩录像 3198",
+      "year": "",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 3198.mp4）。",
+      "status": "pending"
+    },
+    {
+      "id": "F0C8112FPFV",
+      "slug": "clip-2025-01-26",
+      "title": "试玩录像 2025-01-26",
+      "year": "2025",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 ______2025-01-26_13.31.39.mov）。",
+      "status": "pending"
+    }
+  ]
+}
