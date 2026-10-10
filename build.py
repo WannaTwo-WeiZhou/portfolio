@@ -59,7 +59,8 @@ def probe(path):
 
 
 def newer(a, b):
-    return os.path.exists(a) and os.path.exists(b) and os.path.getmtime(b) >= os.path.getmtime(a)
+    """True when `a` exists and is at least as new as `b` (used as newer(dst, src))."""
+    return os.path.exists(a) and os.path.exists(b) and os.path.getmtime(a) >= os.path.getmtime(b)
 
 
 def transcode(src, dst, has_audio, force):
@@ -154,6 +155,22 @@ def main():
             v.pop("file", None)
             pending += 1
             print(f"PENDING  {slug:<28} transcode failed: {e}")
+            continue
+
+        # integrity gate: a truncated source (pre-allocated partial download) still reports
+        # the header duration but decodes short, so compare the encode against the source.
+        try:
+            out_info = probe(out_mp4)
+            drift = abs(out_info["duration"] - info["duration"])
+        except Exception:
+            drift = 0.0
+        if drift > 1.5:
+            v["status"] = "pending"
+            v.pop("file", None)
+            v["integrity"] = "encoded %.1fs vs source %.1fs - source likely truncated" % (
+                out_info["duration"], info["duration"])
+            pending += 1
+            print(f"PENDING  {slug:<28} TRUNCATED SOURCE: {v['integrity']}")
             continue
 
         v["status"] = "ready"

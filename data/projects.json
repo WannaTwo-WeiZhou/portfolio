@@ -4,9 +4,9 @@
   "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
   "updated": "2026-10-10",
   "counts": {
-   "ready": 5,
-   "pending": 13,
-   "total": 18
+   "ready": 15,
+   "pending": 4,
+   "total": 19
   }
  },
  "playable": [
@@ -27,7 +27,8 @@
  ],
  "videos": [
   {
-   "id": "F0C7RPCSGJK",
+   "id": "F0C8234178D",
+   "src_name": "TungstenAvocado_Mac.MP4",
    "slug": "tungsten-avocado-2016",
    "title": "TungstenAvocado",
    "year": "2016",
@@ -39,11 +40,41 @@
     "卡牌"
    ],
    "desc": "2D 卡牌实时对战（类似皇室战争）。负责高定制化手势模块（组合选牌、单点/区域施法）、Unity Tilemap 解析模块、A* 寻路与高复用英雄/怪物生产模块。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "file": "tungsten-avocado-2016.mp4",
+   "poster": "assets/posters/tungsten-avocado-2016.jpg",
+   "duration": 62.97,
+   "width": 1286,
+   "height": 720,
+   "src_bytes": 27576651,
+   "out_bytes": 5584759
   },
   {
-   "id": "F0C80U8P02F",
+   "id": "F0C91P8PMRN",
+   "src_name": "ProjectTheater_Mac.MP4",
+   "slug": "theater-2017",
+   "title": "Theater",
+   "year": "2017",
+   "project": "Theater",
+   "tags": [
+    "公司项目",
+    "卡牌",
+    "实时对战",
+    "养成"
+   ],
+   "desc": "双人卡牌实时对战 + 养成（类似城与龙）。负责基于 Spine 的换装、高自由度城堡装配（含装配后的逻辑与动画表现），沿用并优化 Photon 网络与卡牌操作模块。",
+   "status": "ready",
+   "file": "theater-2017.mp4",
+   "poster": "assets/posters/theater-2017.jpg",
+   "duration": 99.6,
+   "width": 1282,
+   "height": 720,
+   "src_bytes": 42007613,
+   "out_bytes": 8906547
+  },
+  {
+   "id": "F0C815PJEQK",
+   "src_name": "AvocadoReborn_Mac.MP4",
    "slug": "avocado-reborn-2017",
    "title": "AvocadoReborn",
    "year": "2017",
@@ -54,11 +85,18 @@
     "Photon"
    ],
    "desc": "多人实时合作闯关。负责 Spine IK 骨骼控制、行为树怪物 AI、json.net + PlayerPrefs + iCloud 防篡改存储模块、策划数据表 ↔ Prefab 双向修改模块。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "file": "avocado-reborn-2017.mp4",
+   "poster": "assets/posters/avocado-reborn-2017.jpg",
+   "duration": 87.0,
+   "width": 1284,
+   "height": 720,
+   "src_bytes": 36213287,
+   "out_bytes": 6316530
   },
   {
-   "id": "F0C8574DW86",
+   "id": "F0C815ZDKJ7",
+   "src_name": "ProjectDoodle_Mac.MP4",
    "slug": "doodle-2018",
    "title": "Doodle",
    "year": "2018",
@@ -69,11 +107,18 @@
     "Shader"
    ],
    "desc": "多人实时对战涂鸦抢地盘 io 游戏（类似乌贼娘），前后实现 3D 与 2D 两个版本。负责 TextureRender + RawImage + Shader 涂色方案与点对点队列触摸操作模块。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "file": "doodle-2018.mp4",
+   "poster": "assets/posters/doodle-2018.jpg",
+   "duration": 44.4,
+   "width": 606,
+   "height": 1080,
+   "src_bytes": 14753629,
+   "out_bytes": 2737154
   },
   {
    "id": "F0C8ASBB9AQ",
+   "src_name": "ScreenRecording_12-27-2018 13-09-52.mov",
    "slug": "boxygeon2-2018-12-27",
    "title": "Boxygeon2 · 2018-12-27",
    "year": "2018",
@@ -95,7 +140,8 @@
    "out_bytes": 1044207
   },
   {
-   "id": "F0C81SKKR37",
+   "id": "F0C8B3A27T6",
+   "src_name": "ScreenRecording_01-16-2019 13-06-42.MP4",
    "slug": "boxygeon2-2019-01-16-a",
    "title": "Boxygeon2 · 2019-01-16 13-06",
    "year": "2019",
@@ -105,11 +151,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-16-a.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-16-a.jpg",
+   "duration": 42.83,
+   "width": 720,
+   "height": 1558,
+   "src_bytes": 18191099,
+   "out_bytes": 3083332
   },
   {
-   "id": "F0C91H6NF2L",
+   "id": "F0C877LKCGJ",
+   "src_name": "ScreenRecording_01-16-2019 13-16-12.MP4",
    "slug": "boxygeon2-2019-01-16-b",
    "title": "Boxygeon2 · 2019-01-16 13-16",
    "year": "2019",
@@ -119,11 +173,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-16-b.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-16-b.jpg",
+   "duration": 122.73,
+   "width": 720,
+   "height": 1558,
+   "src_bytes": 49529951,
+   "out_bytes": 5420018
   },
   {
-   "id": "F0C8ARR3EUU",
+   "id": "F0C877GFGCS",
+   "src_name": "ScreenRecording_01-16-2019 13-43-17.mov",
    "slug": "boxygeon2-2019-01-16-c",
    "title": "Boxygeon2 · 2019-01-16 13-43",
    "year": "2019",
@@ -133,11 +195,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-16-c.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-16-c.jpg",
+   "duration": 97.7,
+   "width": 720,
+   "height": 1280,
+   "src_bytes": 42064975,
+   "out_bytes": 13404345
   },
   {
-   "id": "F0C8937AR8R",
+   "id": "F0C91P4V0TA",
+   "src_name": "ScreenRecording_01-17-2019 10-36-00.MP4",
    "slug": "boxygeon2-2019-01-17-a",
    "title": "Boxygeon2 · 2019-01-17 10-36",
    "year": "2019",
@@ -147,11 +217,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-17-a.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-17-a.jpg",
+   "duration": 123.87,
+   "width": 1558,
+   "height": 720,
+   "src_bytes": 53864727,
+   "out_bytes": 8524824
   },
   {
-   "id": "F0C893JHAM7",
+   "id": "F0C85D6610W",
+   "src_name": "ScreenRecording_01-17-2019 10-49-20.MP4",
    "slug": "boxygeon2-2019-01-17-b",
    "title": "Boxygeon2 · 2019-01-17 10-49",
    "year": "2019",
@@ -161,11 +239,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-17-b.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-17-b.jpg",
+   "duration": 299.47,
+   "width": 1558,
+   "height": 720,
+   "src_bytes": 134548077,
+   "out_bytes": 24036653
   },
   {
-   "id": "F0C85410Z62",
+   "id": "F0C876P8W10",
+   "src_name": "ScreenRecording_01-17-2019 13-07-47.MP4",
    "slug": "boxygeon2-2019-01-17-c",
    "title": "Boxygeon2 · 2019-01-17 13-07",
    "year": "2019",
@@ -175,11 +261,19 @@
     "Roguelike"
    ],
    "desc": "Boxygeon2 关卡与战斗录屏。",
-   "status": "pending",
-   "inferred": true
+   "status": "ready",
+   "inferred": true,
+   "file": "boxygeon2-2019-01-17-c.mp4",
+   "poster": "assets/posters/boxygeon2-2019-01-17-c.jpg",
+   "duration": 324.4,
+   "width": 1558,
+   "height": 720,
+   "src_bytes": 142382115,
+   "out_bytes": 26496193
   },
   {
    "id": "F0C857RDKF0",
+   "src_name": "Starling 2019-12-17 15-26-09.MP4",
    "slug": "starling-2019",
    "title": "Starling",
    "year": "2019",
@@ -189,19 +283,20 @@
     "解谜",
     "IndiaGameCamp2019"
    ],
-   "desc": "IndiaGameCamp2019 参赛作品，益智类连线解谜游戏。另有完整演示视频：https://www.bilibili.com/video/BV11R4y1T7Kr/",
+   "desc": "IndiaGameCamp2019 参赛作品，益智类连线解谜游戏。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/",
    "file": "starling-2019.mp4",
    "poster": "assets/posters/starling-2019.jpg",
    "duration": 92.4,
    "width": 1280,
    "height": 720,
    "src_bytes": 40775173,
-   "out_bytes": 4331455,
-   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/"
+   "out_bytes": 4331455
   },
   {
    "id": "F0C7RR4C0QP",
+   "src_name": "defects_____________.mov",
    "slug": "defects-2020",
    "title": "Defects",
    "year": "2020",
@@ -211,12 +306,13 @@
     "节奏",
     "CIGA2020"
    ],
-   "desc": "CIGA2020 参赛作品，益智类节奏游戏。另有完整演示视频：https://www.bilibili.com/video/BV1yi4y1g7vw/",
+   "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
    "status": "pending",
    "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/"
   },
   {
    "id": "F0C91JLLV96",
+   "src_name": "xiaochenai_2021-07-11_14-19-01.mp4",
    "slug": "xiaochenai-2021",
    "title": "一颗小尘埃",
    "year": "2021",
@@ -226,12 +322,13 @@
     "IO",
     "CIGA2021"
    ],
-   "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。另有完整演示视频：https://www.bilibili.com/video/BV1Zh411h79w/",
+   "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
    "status": "pending",
    "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/"
   },
   {
    "id": "F0C7RQU7F55",
+   "src_name": "IMG_0816.mp4",
    "slug": "clip-0816",
    "title": "试玩录像 0816",
    "year": "",
@@ -251,6 +348,7 @@
   },
   {
    "id": "F0C857LNMSS",
+   "src_name": "5128.MP4",
    "slug": "clip-5128",
    "title": "试玩录像 5128",
    "year": "",
@@ -270,6 +368,7 @@
   },
   {
    "id": "F0C80VB44R1",
+   "src_name": "IMG_1518.TRIM.MOV",
    "slug": "clip-1518",
    "title": "试玩录像 1518",
    "year": "",
@@ -289,6 +388,7 @@
   },
   {
    "id": "F0C895XQ0AD",
+   "src_name": "3198.mp4",
    "slug": "clip-3198",
    "title": "试玩录像 3198",
    "year": "",
@@ -301,6 +401,7 @@
   },
   {
    "id": "F0C8112FPFV",
+   "src_name": "______2025-01-26_13.31.39.mov",
    "slug": "clip-2025-01-26",
    "title": "试玩录像 2025-01-26",
    "year": "2025",
