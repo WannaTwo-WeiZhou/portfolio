@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>个人作品集 · Unity 客户端 / 游戏工具链 / 独立游戏</title>
 <meta name="description" content="个人游戏作品集：可在线试玩的 demo 与历年项目试玩视频。" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="个人作品集 · 可试玩 Demo 与历年项目试玩录像" />
+<meta property="og:description" content="Unity 客户端 / 游戏工具链 / 独立游戏 —— 在线试玩 Demo 与历年项目试玩视频。" />
+<meta property="og:image" content="assets/posters/clip-0816.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
 <style>
   :root{
     --bg:#0d0f12;
@@ -269,7 +274,8 @@ function renderToolbar(){
 }
 
 function renderGrid(){
-  const list = activeTag === '全部' ? DATA.videos : DATA.videos.filter(v => (v.tags||[]).includes(activeTag));
+  const sorted = DATA.videos.slice().sort((a,b) => (Number(b.year)||-1) - (Number(a.year)||-1));
+  const list = activeTag === '全部' ? sorted : sorted.filter(v => (v.tags||[]).includes(activeTag));
   $('#grid').innerHTML = list.map(v => {
     const ready = v.status === 'ready';
     const thumb = ready

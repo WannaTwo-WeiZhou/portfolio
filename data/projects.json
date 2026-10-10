@@ -4,8 +4,8 @@
   "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
   "updated": "2026-10-10",
   "counts": {
-   "ready": 3,
-   "pending": 15,
+   "ready": 5,
+   "pending": 13,
    "total": 18
   }
  },
@@ -190,7 +190,15 @@
     "IndiaGameCamp2019"
    ],
    "desc": "IndiaGameCamp2019 参赛作品，益智类连线解谜游戏。另有完整演示视频：https://www.bilibili.com/video/BV11R4y1T7Kr/",
-   "status": "pending"
+   "status": "ready",
+   "file": "starling-2019.mp4",
+   "poster": "assets/posters/starling-2019.jpg",
+   "duration": 92.4,
+   "width": 1280,
+   "height": 720,
+   "src_bytes": 40775173,
+   "out_bytes": 4331455,
+   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/"
   },
   {
    "id": "F0C7RR4C0QP",
@@ -204,7 +212,8 @@
     "CIGA2020"
    ],
    "desc": "CIGA2020 参赛作品，益智类节奏游戏。另有完整演示视频：https://www.bilibili.com/video/BV1yi4y1g7vw/",
-   "status": "pending"
+   "status": "pending",
+   "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/"
   },
   {
    "id": "F0C91JLLV96",
@@ -218,7 +227,8 @@
     "CIGA2021"
    ],
    "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。另有完整演示视频：https://www.bilibili.com/video/BV1Zh411h79w/",
-   "status": "pending"
+   "status": "pending",
+   "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/"
   },
   {
    "id": "F0C7RQU7F55",
@@ -268,7 +278,14 @@
     "待补充"
    ],
    "desc": "待补充说明（文件名 IMG_1518.TRIM.MOV）。",
-   "status": "pending"
+   "status": "ready",
+   "file": "clip-1518.mp4",
+   "poster": "assets/posters/clip-1518.jpg",
+   "duration": 289.0,
+   "width": 828,
+   "height": 1792,
+   "src_bytes": 63851972,
+   "out_bytes": 14905371
   },
   {
    "id": "F0C895XQ0AD",

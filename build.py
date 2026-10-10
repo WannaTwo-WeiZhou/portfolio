@@ -22,10 +22,12 @@ VOUT = os.path.join(ROOT, "assets", "videos")
 POUT = os.path.join(ROOT, "assets", "posters")
 DATA = os.path.join(ROOT, "data", "projects.json")
 
-MAX_W = 1280          # downscale only if wider
+MAX_SIDE = 1280      # cap the LONG side (works for portrait clips too)
 CRF = 27
 PRESET = "medium"
 AUDIO_KBPS = 96
+COMPUTED = ("file", "poster", "duration", "width", "height",
+            "src_bytes", "out_bytes", "status", "bilibili")
 
 
 def run(cmd):
@@ -63,7 +65,9 @@ def newer(a, b):
 def transcode(src, dst, has_audio, force):
     if not force and newer(dst, src):
         return False
-    vf = f"scale='min({MAX_W},iw)':-2"
+    # cap the long side, keep aspect (portrait screen recordings stay portrait)
+    vf = (f"scale='if(gt(iw,ih),min({MAX_SIDE},iw),-2)'"
+          f":'if(gt(iw,ih),-2,min({MAX_SIDE},ih))'")
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", src,
            "-vf", vf, "-c:v", "libx264", "-crf", str(CRF), "-preset", PRESET,
            "-pix_fmt", "yuv420p", "-movflags", "+faststart"]
@@ -101,11 +105,28 @@ def main():
     }
 
     ready = pending = 0
+    prev_entries = {}
+    if os.path.exists(DATA):
+        try:
+            prev_entries = {x["slug"]: x for x in json.load(open(DATA, encoding="utf8"))["videos"]}
+        except Exception:
+            prev_entries = {}
     for v in man["videos"]:
-        if args.only and v["slug"] not in args.only:
-            pass
         src = os.path.join(SRC, v["id"])
         slug = v["slug"]
+        if args.only and slug not in args.only:
+            prev = prev_entries.get(slug, {})
+            for k in COMPUTED:            # keep what the previous build measured
+                if k in prev:
+                    v[k] = prev[k]
+            if v.get("status") == "ready":
+                ready += 1
+            else:
+                pending += 1
+            print(f"SKIP     {slug:<28} (kept {v.get('status')})")
+            continue
+        if slug in bilibili:
+            v["bilibili"] = bilibili[slug]
         if not os.path.exists(src) or os.path.getsize(src) < 1024:
             v["status"] = "pending"
             v.pop("file", None)
