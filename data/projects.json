@@ -4,8 +4,8 @@
   "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
   "updated": "2026-10-10",
   "counts": {
-   "ready": 15,
-   "pending": 4,
+   "ready": 19,
+   "pending": 0,
    "total": 19
   }
  },
@@ -285,14 +285,14 @@
    ],
    "desc": "IndiaGameCamp2019 参赛作品，益智类连线解谜游戏。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/",
    "file": "starling-2019.mp4",
    "poster": "assets/posters/starling-2019.jpg",
    "duration": 92.4,
    "width": 1280,
    "height": 720,
    "src_bytes": 40775173,
-   "out_bytes": 4331455
+   "out_bytes": 4331455,
+   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/"
   },
   {
    "id": "F0C7RR4C0QP",
@@ -307,7 +307,14 @@
     "CIGA2020"
    ],
    "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
-   "status": "pending",
+   "status": "ready",
+   "file": "defects-2020.mp4",
+   "poster": "assets/posters/defects-2020.jpg",
+   "duration": 175.2,
+   "width": 1920,
+   "height": 1080,
+   "src_bytes": 63739521,
+   "out_bytes": 12541392,
    "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/"
   },
   {
@@ -323,7 +330,14 @@
     "CIGA2021"
    ],
    "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
-   "status": "pending",
+   "status": "ready",
+   "file": "xiaochenai-2021.mp4",
+   "poster": "assets/posters/xiaochenai-2021.jpg",
+   "duration": 169.71,
+   "width": 1920,
+   "height": 1080,
+   "src_bytes": 223144057,
+   "out_bytes": 13528193,
    "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/"
   },
   {
@@ -397,7 +411,14 @@
     "待补充"
    ],
    "desc": "待补充说明（文件名 3198.mp4）。",
-   "status": "pending"
+   "status": "ready",
+   "file": "clip-3198.mp4",
+   "poster": "assets/posters/clip-3198.jpg",
+   "duration": 132.13,
+   "width": 1352,
+   "height": 756,
+   "src_bytes": 12799520,
+   "out_bytes": 3802892
   },
   {
    "id": "F0C8112FPFV",
@@ -410,7 +431,14 @@
     "待补充"
    ],
    "desc": "待补充说明（文件名 ______2025-01-26_13.31.39.mov）。",
-   "status": "pending"
+   "status": "ready",
+   "file": "clip-2025-01-26.mp4",
+   "poster": "assets/posters/clip-2025-01-26.jpg",
+   "duration": 229.92,
+   "width": 998,
+   "height": 1780,
+   "src_bytes": 584291615,
+   "out_bytes": 31439383
   }
  ]
 }

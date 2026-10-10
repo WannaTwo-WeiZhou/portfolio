@@ -159,11 +159,26 @@ def main():
 
         # integrity gate: a truncated source (pre-allocated partial download) still reports
         # the header duration but decodes short, so compare the encode against the source.
+        # An interrupted encode (killed mid-write) leaves an mp4 with no moov atom at all;
+        # that is unreadable rather than short, so re-encode once before giving up.
         try:
             out_info = probe(out_mp4)
-            drift = abs(out_info["duration"] - info["duration"])
-        except Exception:
-            drift = 0.0
+        except Exception as e:
+            print(f"RETRY    {slug:<28} output unreadable ({str(e)[:60]}) - re-encoding")
+            if os.path.exists(out_mp4):
+                os.remove(out_mp4)
+            try:
+                transcode(src, out_mp4, info["has_audio"], True)
+                out_info = probe(out_mp4)
+            except Exception as e2:
+                v["status"] = "pending"
+                v.pop("file", None)
+                v.pop("poster", None)
+                v["integrity"] = f"re-encode failed: {str(e2)[:120]}"
+                pending += 1
+                print(f"PENDING  {slug:<28} RE-ENCODE FAILED: {v['integrity']}")
+                continue
+        drift = abs(out_info["duration"] - info["duration"])
         if drift > 1.5:
             v["status"] = "pending"
             v.pop("file", None)
