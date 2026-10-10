@@ -49,6 +49,9 @@ python3 -m http.server 8080   # 然后打开 http://localhost:8080/
 `libx264 -crf 27 -preset medium -pix_fmt yuv420p -movflags +faststart`，长边超过 1280 才缩放（竖屏同样按长边裁）；
 有声则 `aac 96k`。原始录音多为 600–1560 宽的录屏，转码后约为原体积的 15–35%。
 
+`manifest.json` 里的可选字段 `rotate`（0 / 90 / 180 / 270，顺时针）用于校正「手机竖着录横屏游戏」的片段
+（如 `egg-catch-2018`）：编码与封面都会先 `transpose` 再缩放，`projects.json` 里的 `width`/`height` 按旋转后的实际尺寸写。
+
 ## 待办
 
 - 源视频已齐：16 条条目全部有 `_src/` 源文件；本地汇总目录为 `~/Documents/Pictures/作品`。

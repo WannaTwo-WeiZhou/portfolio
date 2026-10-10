@@ -63,12 +63,25 @@ def newer(a, b):
     return os.path.exists(a) and os.path.exists(b) and os.path.getmtime(a) >= os.path.getmtime(b)
 
 
-def transcode(src, dst, has_audio, force):
+def rot_filter(rotate):
+    """Filter fragment for a CLOCKWISE source rotation (manifest field `rotate`: 0/90/180/270).
+
+    Some screen recordings were captured with the phone held sideways against a landscape
+    game, so the frame is portrait but the content is rotated; the manifest carries the
+    correction and both the encode and the poster apply it. Applied before scale so the
+    long-side cap sees the rotated (final) dimensions.
+    """
+    rotate = int(rotate or 0) % 360
+    return {90: "transpose=1,", 180: "hflip,vflip,", 270: "transpose=2,"}.get(rotate, "")
+
+
+def transcode(src, dst, has_audio, force, rotate=0):
     if not force and newer(dst, src):
         return False
     # cap the long side, keep aspect (portrait screen recordings stay portrait)
     vf = (f"scale='if(gt(iw,ih),min({MAX_SIDE},iw),-2)'"
           f":'if(gt(iw,ih),-2,min({MAX_SIDE},ih))'")
+    vf = rot_filter(rotate) + vf
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", src,
            "-vf", vf, "-c:v", "libx264", "-crf", str(CRF), "-preset", PRESET,
            "-pix_fmt", "yuv420p", "-movflags", "+faststart"]
@@ -78,13 +91,13 @@ def transcode(src, dst, has_audio, force):
     return True
 
 
-def poster(src, dst, duration, force):
+def poster(src, dst, duration, force, rotate=0):
     if not force and newer(dst, src):
         return False
     ts = max(0.5, duration * 0.15)
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-ss", f"{ts:.2f}",
-         "-i", src, "-frames:v", "1", "-vf", "scale='min(760,iw)':-2",
-         "-q:v", "4", dst])
+         "-i", src, "-frames:v", "1", "-vf",
+         rot_filter(rotate) + "scale='min(760,iw)':-2", "-q:v", "4", dst])
     return True
 
 
@@ -149,9 +162,10 @@ def main():
 
         out_mp4 = os.path.join(VOUT, slug + ".mp4")
         out_jpg = os.path.join(POUT, slug + ".jpg")
+        rotate = int(v.get("rotate") or 0)
         try:
-            enc = transcode(src, out_mp4, info["has_audio"], args.force)
-            poster(src, out_jpg, info["duration"], args.force)
+            enc = transcode(src, out_mp4, info["has_audio"], args.force, rotate)
+            poster(src, out_jpg, info["duration"], args.force, rotate)
         except Exception as e:
             v["status"] = "pending"
             v.pop("file", None)
@@ -194,7 +208,10 @@ def main():
         v["file"] = slug + ".mp4"
         v["poster"] = "assets/posters/" + slug + ".jpg"
         v["duration"] = round(info["duration"], 2)
-        v["width"], v["height"] = info["width"], info["height"]
+        w, h = info["width"], info["height"]
+        if rotate % 180 == 90:            # 90/270 swaps the frame, report the published size
+            w, h = h, w
+        v["width"], v["height"] = w, h
         v["src_bytes"] = info["size"]
         v["out_bytes"] = os.path.getsize(out_mp4)
         if slug in bilibili:

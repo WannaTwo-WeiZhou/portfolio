@@ -87,14 +87,14 @@
    ],
    "desc": "Global Game Jam 2025 参赛作品，当届主题「Bubble」。一款类柏青哥的休闲游戏：寄居蟹「螺密欧」向水缸上方的朱丽蟹吐泡泡表达爱意，玩家发射泡泡匹配消除、累积连击。视频为 2025-01-26 的实机演示。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV1ELFNeMEB4/",
    "file": "luomiou-2025.mp4",
    "poster": "assets/posters/luomiou-2025.jpg",
    "duration": 229.92,
    "width": 998,
    "height": 1780,
    "src_bytes": 584291615,
-   "out_bytes": 31439383
+   "out_bytes": 31439383,
+   "bilibili": "https://www.bilibili.com/video/BV1ELFNeMEB4/"
   },
   {
    "id": "F0C895XQ0AD",
@@ -111,14 +111,14 @@
    ],
    "desc": "Unity 开发者社区「团结游戏开发挑战」参赛作品，主题「It never ends」；与朋友合作完成的肉鸽弹珠游戏。视频为游戏实机演示。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV14uCBYYEJd/",
    "file": "niuma-2024.mp4",
    "poster": "assets/posters/niuma-2024.jpg",
    "duration": 132.13,
    "width": 1352,
    "height": 756,
    "src_bytes": 12799520,
-   "out_bytes": 3802892
+   "out_bytes": 3802892,
+   "bilibili": "https://www.bilibili.com/video/BV14uCBYYEJd/"
   },
   {
    "id": "F0C91JLLV96",
@@ -134,14 +134,14 @@
    ],
    "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/",
    "file": "xiaochenai-2021.mp4",
    "poster": "assets/posters/xiaochenai-2021.jpg",
    "duration": 169.71,
    "width": 1920,
    "height": 1080,
    "src_bytes": 223144057,
-   "out_bytes": 13528193
+   "out_bytes": 13528193,
+   "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/"
   },
   {
    "id": "F0C7RR4C0QP",
@@ -157,14 +157,14 @@
    ],
    "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/",
    "file": "defects-2020.mp4",
    "poster": "assets/posters/defects-2020.jpg",
    "duration": 175.2,
    "width": 1920,
    "height": 1080,
    "src_bytes": 63739521,
-   "out_bytes": 12541392
+   "out_bytes": 12541392,
+   "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/"
   },
   {
    "id": "F0C857RDKF0",
@@ -180,14 +180,14 @@
    ],
    "desc": "IndieGameCamp2019 参赛作品，益智类连线解谜游戏。",
    "status": "ready",
-   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/",
    "file": "starling-2019.mp4",
    "poster": "assets/posters/starling-2019.jpg",
    "duration": 92.4,
    "width": 1280,
    "height": 720,
    "src_bytes": 40775173,
-   "out_bytes": 4331455
+   "out_bytes": 4331455,
+   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/"
   },
   {
    "id": "F0C857LNMSS",
@@ -248,14 +248,15 @@
     "休闲"
    ],
    "desc": "用一个周末时间完成的双人合作 Demo：一位玩家控制鸟巢旋转，另一位控制下方篮子左右移动，两人配合稳稳接住从树上掉落的鸟蛋。",
+   "rotate": 90,
    "status": "ready",
    "file": "egg-catch-2018.mp4",
    "poster": "assets/posters/egg-catch-2018.jpg",
    "duration": 28.23,
-   "width": 720,
-   "height": 1280,
+   "width": 1280,
+   "height": 720,
    "src_bytes": 9670406,
-   "out_bytes": 1044207
+   "out_bytes": 1043450
   },
   {
    "id": "F0C815ZDKJ7",
