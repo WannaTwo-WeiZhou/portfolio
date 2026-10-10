@@ -232,6 +232,39 @@
       "tags": ["待补充"],
       "desc": "待补充说明（文件名 ______2025-01-26_13.31.39.mov）。",
       "status": "pending"
+    },
+    {
+      "id": "local-1214",
+      "src_name": "1214.MP4",
+      "slug": "clip-1214",
+      "title": "试玩录像 1214",
+      "year": "2026",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 1214.MP4，录制于 2026-07-21）。",
+      "status": "pending"
+    },
+    {
+      "id": "local-1215",
+      "src_name": "1215.MP4",
+      "slug": "clip-1215",
+      "title": "试玩录像 1215",
+      "year": "2026",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 1215.MP4，录制于 2026-07-21）。",
+      "status": "pending"
+    },
+    {
+      "id": "local-img0084",
+      "src_name": "IMG_0084.MP4",
+      "slug": "clip-0084",
+      "title": "试玩录像 0084",
+      "year": "2016",
+      "project": "",
+      "tags": ["待补充"],
+      "desc": "待补充说明（文件名 IMG_0084.MP4，录制于 2016-04-24）。",
+      "status": "pending"
     }
   ]
 }
