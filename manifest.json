@@ -1,280 +1,205 @@
 {
- "meta": {
-  "title": "个人作品集",
-  "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
-  "updated": "2026-10-14",
-  "counts": {
-   "ready": 16,
-   "pending": 0,
-   "total": 16
-  }
- },
- "playable": [
-  {
-   "id": "shield-core",
-   "title": "ShieldCore",
-   "subtitle": "独立游戏 · 开发中",
-   "year": "2026",
-   "tags": [
-    "独立游戏",
-    "WebGL",
-    "可在线试玩"
-   ],
-   "desc": "正在开发的独立游戏，主分支 demo 已部署到 GitHub Pages，可直接在浏览器里试玩（WebGL）。",
-   "url": "https://wannatwo-weizhou.github.io/shield-core/",
-   "status": "ready"
-  }
- ],
- "videos": [
-  {
-   "id": "local-1214",
-   "src_name": "1214.MP4",
-   "slug": "merge-ugc-2026",
-   "title": "二合休闲手游 · 角色换装与妆容 UGC",
-   "year": "2026",
-   "project": "二合休闲手游（公司项目）",
-   "tags": [
-    "公司项目",
-    "二合休闲",
-    "换装",
-    "UGC"
-   ],
-   "desc": "公司项目演示录像（2026）：一款二合（合成）休闲手游，棋盘以美妆/时尚道具为合成素材，并结合剧情过场推进。本人负责其中角色换装、服装 DIY、角色换妆容等全部 UGC 内容。",
-   "status": "ready",
-   "hidden": true
+  "meta": {
+    "title": "个人作品集",
+    "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
+    "updated": "2026-10-14",
+    "counts": {
+      "ready": 16,
+      "pending": 0,
+      "total": 16
+    }
   },
-  {
-   "id": "local-1215",
-   "src_name": "1215.MP4",
-   "slug": "diy-ugc-tool-2026",
-   "title": "角色 DIY + 服装 UGC 工具（跨项目）",
-   "year": "2026",
-   "project": "角色 DIY / 服装 UGC 工具（公司项目）",
-   "tags": [
-    "公司项目",
-    "工具链",
-    "UGC",
-    "Editor 工具"
-   ],
-   "desc": "跨项目复用的角色 DIY 与服装 UGC 工具演示：外观编辑（Appearance）下含染色 Dye、材质 Material、形体 Shape、裁切 Cutting 与贴花库 Decal Library 等模块，让美术/策划在多项目间复用同一套角色定制能力。视频为编辑器实机操作。",
-   "status": "ready",
-   "hidden": true
-  },
-  {
-   "id": "F0C8112FPFV",
-   "src_name": "______2025-01-26_13.31.39.mov",
-   "slug": "luomiou-2025",
-   "title": "螺密欧与朱丽蟹",
-   "year": "2025",
-   "project": "螺密欧与朱丽蟹",
-   "tags": [
-    "GameJam",
-    "柏青哥",
-    "多人合作",
-    "GGJ2025"
-   ],
-   "desc": "Global Game Jam 2025 参赛作品，当届主题「Bubble」。一款类柏青哥的休闲游戏：寄居蟹「螺密欧」向水缸上方的朱丽蟹吐泡泡表达爱意，玩家发射泡泡匹配消除、累积连击。视频为 2025-01-26 的实机演示。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C895XQ0AD",
-   "src_name": "3198.mp4",
-   "slug": "niuma-2024",
-   "title": "地狱牛马",
-   "year": "2024",
-   "project": "地狱牛马",
-   "tags": [
-    "GameJam",
-    "肉鸽",
-    "弹珠",
-    "团结游戏开发挑战"
-   ],
-   "desc": "Unity 开发者社区「团结游戏开发挑战」参赛作品，主题「It never ends」；与朋友合作完成的肉鸽弹珠游戏。视频为游戏实机演示。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C91JLLV96",
-   "src_name": "xiaochenai_2021-07-11_14-19-01.mp4",
-   "slug": "xiaochenai-2021",
-   "title": "一颗小尘埃",
-   "year": "2021",
-   "project": "一颗小尘埃",
-   "tags": [
-    "GameJam",
-    "IO",
-    "CIGA2021"
-   ],
-   "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C7RR4C0QP",
-   "src_name": "defects_____________.mov",
-   "slug": "defects-2020",
-   "title": "Defects",
-   "year": "2020",
-   "project": "Defects",
-   "tags": [
-    "GameJam",
-    "节奏",
-    "CIGA2020"
-   ],
-   "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C857RDKF0",
-   "src_name": "Starling 2019-12-17 15-26-09.MP4",
-   "slug": "starling-2019",
-   "title": "Starling",
-   "year": "2019",
-   "project": "Starling",
-   "tags": [
-    "GameJam",
-    "解谜",
-    "IndieGameCamp2019"
-   ],
-   "desc": "IndieGameCamp2019 参赛作品，益智类连线解谜游戏。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C857LNMSS",
-   "src_name": "5128.MP4",
-   "slug": "tiaohe-2019",
-   "title": "调和",
-   "year": "2019",
-   "project": "调和",
-   "tags": [
-    "GameJam",
-    "音乐节奏",
-    "多人合作",
-    "CIGA2019"
-   ],
-   "desc": "2019 年 7 月 CiGA Game Jam 参赛作品，一款多人合作的音乐节奏类游戏（PC 版）。视频为当时录制的实机画面。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C80VB44R1",
-   "src_name": "IMG_1518.TRIM.MOV",
-   "slug": "boxygeon2-2019",
-   "title": "Boxygeon2",
-   "year": "2019",
-   "project": "Boxygeon2",
-   "tags": [
-    "公司项目",
-    "Roguelike",
-    "关卡编辑器",
-    "行为树"
-   ],
-   "desc": "竖版单手操作战斗 roguelike（类似《以撒的结合》）：移动与攻击统一为「直接滑动」，共三个主题关卡、每主题约十个小关加一个 boss 关，靠战斗中掉落的道具强化自身去挑战更高难度。本人负责高度定制化的关卡编辑器、基于随机种子的关卡进度存储、行为树 AI 与怪物工厂等模块。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C8ASBB9AQ",
-   "src_name": "ScreenRecording_12-27-2018 13-09-52.mov",
-   "slug": "egg-catch-2018",
-   "title": "接蛋双人 Demo · 周末原型",
-   "year": "2018",
-   "project": "接蛋双人 Demo（周末原型）",
-   "tags": [
-    "周末原型",
-    "双人合作",
-    "休闲"
-   ],
-   "desc": "用一个周末时间完成的双人合作 Demo：一位玩家控制鸟巢旋转，另一位控制下方篮子左右移动，两人配合稳稳接住从树上掉落的鸟蛋。",
-   "rotate": 90,
-   "status": "ready"
-  },
-  {
-   "id": "F0C815ZDKJ7",
-   "src_name": "ProjectDoodle_Mac.MP4",
-   "slug": "doodle-2018",
-   "title": "Doodle",
-   "year": "2018",
-   "project": "Doodle",
-   "tags": [
-    "公司项目",
-    "多人对战",
-    "Shader"
-   ],
-   "desc": "多人实时对战涂鸦抢地盘 io 游戏（类似乌贼娘），前后实现 3D 与 2D 两个版本。负责 TextureRender + RawImage + Shader 涂色方案与点对点队列触摸操作模块。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C7RQU7F55",
-   "src_name": "IMG_0816.mp4",
-   "slug": "mianxiang-huoyan-2017",
-   "title": "面向火焰",
-   "year": "2017",
-   "project": "面向火焰",
-   "tags": [
-    "GameJam",
-    "潜行",
-    "IndieGameCamp2017"
-   ],
-   "desc": "本人参加的第一个 Game Jam——心动网络 2017 Indie Game Camp 48 小时游戏创作挑战的参赛作品，围绕「篝火」主题：主角只能在阴影中行进，触碰到光会受伤；击杀拜火教信徒可让其篝火的光照范围缩小，为主角开辟行动空间。视频为现场拍摄的实机画面。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C815PJEQK",
-   "src_name": "AvocadoReborn_Mac.MP4",
-   "slug": "avocado-reborn-2017",
-   "title": "AvocadoReborn",
-   "year": "2017",
-   "project": "AvocadoReborn",
-   "tags": [
-    "公司项目",
-    "多人合作",
-    "Photon"
-   ],
-   "desc": "多人实时合作闯关。负责 Spine IK 骨骼控制、行为树怪物 AI、json.net + PlayerPrefs + iCloud 防篡改存储模块、策划数据表 ↔ Prefab 双向修改模块。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C91P8PMRN",
-   "src_name": "ProjectTheater_Mac.MP4",
-   "slug": "theater-2017",
-   "title": "Theater",
-   "year": "2017",
-   "project": "Theater",
-   "tags": [
-    "公司项目",
-    "卡牌",
-    "实时对战",
-    "养成"
-   ],
-   "desc": "双人卡牌实时对战 + 养成（类似城与龙）。负责基于 Spine 的换装、高自由度城堡装配（含装配后的逻辑与动画表现），沿用并优化 Photon 网络与卡牌操作模块。",
-   "status": "ready"
-  },
-  {
-   "id": "F0C8234178D",
-   "src_name": "TungstenAvocado_Mac.MP4",
-   "slug": "tungsten-avocado-2016",
-   "title": "TungstenAvocado",
-   "year": "2016",
-   "project": "TungstenAvocado",
-   "tags": [
-    "公司项目",
-    "2D",
-    "实时对战",
-    "卡牌"
-   ],
-   "desc": "2D 卡牌实时对战（类似皇室战争）。负责高定制化手势模块（组合选牌、单点/区域施法）、Unity Tilemap 解析模块、A* 寻路与高复用英雄/怪物生产模块。",
-   "status": "ready"
-  },
-  {
-   "id": "local-img0084",
-   "src_name": "IMG_0084.MP4",
-   "slug": "eye-tracking-2016",
-   "title": "眼动仪动态画展",
-   "year": "2016",
-   "project": "眼动仪动态画展",
-   "tags": [
-    "互动艺术",
-    "眼动仪"
-   ],
-   "desc": "2016 年的互动数字艺术展项目：用眼动仪捕捉玩家眼睛在屏幕上的位置，以视线控制场景视角来探索游戏内容、与画中的动植物交互。本人负责接入眼动仪 SDK，并实现高复用的「类 AI」模块来管理动物行为。",
-   "status": "ready"
-  }
- ]
+  "playable": [
+    {
+      "id": "shield-core",
+      "title": "ShieldCore",
+      "subtitle": "独立游戏 · 开发中",
+      "year": "2026",
+      "tags": ["独立游戏", "WebGL", "可在线试玩"],
+      "desc": "正在开发的独立游戏，主分支 demo 已部署到 GitHub Pages，可直接在浏览器里试玩（WebGL）。",
+      "url": "https://wannatwo-weizhou.github.io/shield-core/",
+      "status": "ready"
+    }
+  ],
+  "videos": [
+    {
+      "id": "local-1214",
+      "src_name": "1214.MP4",
+      "slug": "merge-ugc-2026",
+      "title": "二合休闲手游 · 角色换装与妆容 UGC",
+      "year": "2026",
+      "project": "二合休闲手游（公司项目）",
+      "tags": ["公司项目", "二合休闲", "换装", "UGC"],
+      "desc": "公司项目演示录像（2026）：一款二合（合成）休闲手游，棋盘以美妆/时尚道具为合成素材，并结合剧情过场推进。本人负责其中角色换装、服装 DIY、角色换妆容等全部 UGC 内容。",
+      "status": "ready",
+      "hidden": true
+    },
+    {
+      "id": "local-1215",
+      "src_name": "1215.MP4",
+      "slug": "diy-ugc-tool-2026",
+      "title": "角色 DIY + 服装 UGC 工具（跨项目）",
+      "year": "2026",
+      "project": "角色 DIY / 服装 UGC 工具（公司项目）",
+      "tags": ["公司项目", "工具链", "UGC", "Editor 工具"],
+      "desc": "跨项目复用的角色 DIY 与服装 UGC 工具演示：外观编辑（Appearance）下含染色 Dye、材质 Material、形体 Shape、裁切 Cutting 与贴花库 Decal Library 等模块，让美术/策划在多项目间复用同一套角色定制能力。视频为编辑器实机操作。",
+      "status": "ready",
+      "hidden": true
+    },
+    {
+      "id": "F0C8112FPFV",
+      "src_name": "______2025-01-26_13.31.39.mov",
+      "slug": "luomiou-2025",
+      "title": "螺密欧与朱丽蟹",
+      "year": "2025",
+      "project": "螺密欧与朱丽蟹",
+      "tags": ["GameJam", "柏青哥", "多人合作", "GGJ2025"],
+      "desc": "Global Game Jam 2025 参赛作品，当届主题「Bubble」。一款类柏青哥的休闲游戏：寄居蟹「螺密欧」向水缸上方的朱丽蟹吐泡泡表达爱意，玩家发射泡泡匹配消除、累积连击。视频为 2025-01-26 的实机演示。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C895XQ0AD",
+      "src_name": "3198.mp4",
+      "slug": "niuma-2024",
+      "title": "地狱牛马",
+      "year": "2024",
+      "project": "地狱牛马",
+      "tags": ["GameJam", "肉鸽", "弹珠", "团结游戏开发挑战"],
+      "desc": "Unity 开发者社区「团结游戏开发挑战」参赛作品，主题「It never ends」；与朋友合作完成的肉鸽弹珠游戏。视频为游戏实机演示。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C91JLLV96",
+      "src_name": "xiaochenai_2021-07-11_14-19-01.mp4",
+      "slug": "xiaochenai-2021",
+      "title": "一颗小尘埃",
+      "year": "2021",
+      "project": "一颗小尘埃",
+      "tags": ["GameJam", "IO", "CIGA2021"],
+      "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C7RR4C0QP",
+      "src_name": "defects_____________.mov",
+      "slug": "defects-2020",
+      "title": "Defects",
+      "year": "2020",
+      "project": "Defects",
+      "tags": ["GameJam", "节奏", "CIGA2020"],
+      "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C857RDKF0",
+      "src_name": "Starling 2019-12-17 15-26-09.MP4",
+      "slug": "starling-2019",
+      "title": "Starling",
+      "year": "2019",
+      "project": "Starling",
+      "tags": ["GameJam", "解谜", "IndieGameCamp2019"],
+      "desc": "IndieGameCamp2019 参赛作品，益智类连线解谜游戏。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C857LNMSS",
+      "src_name": "5128.MP4",
+      "slug": "tiaohe-2019",
+      "title": "调和",
+      "year": "2019",
+      "project": "调和",
+      "tags": ["GameJam", "音乐节奏", "多人合作", "CIGA2019"],
+      "desc": "2019 年 7 月 CiGA Game Jam 参赛作品，一款多人合作的音乐节奏类游戏（PC 版）。视频为当时录制的实机画面。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C80VB44R1",
+      "src_name": "IMG_1518.TRIM.MOV",
+      "slug": "boxygeon2-2019",
+      "title": "Boxygeon2",
+      "year": "2019",
+      "project": "Boxygeon2",
+      "tags": ["公司项目", "Roguelike", "关卡编辑器", "行为树"],
+      "desc": "竖版单手操作战斗 roguelike（类似《以撒的结合》）：移动与攻击统一为「直接滑动」，共三个主题关卡、每主题约十个小关加一个 boss 关，靠战斗中掉落的道具强化自身去挑战更高难度。本人负责高度定制化的关卡编辑器、基于随机种子的关卡进度存储、行为树 AI 与怪物工厂等模块。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C8ASBB9AQ",
+      "src_name": "ScreenRecording_12-27-2018 13-09-52.mov",
+      "slug": "egg-catch-2018",
+      "title": "接蛋双人 Demo · 周末原型",
+      "year": "2018",
+      "project": "接蛋双人 Demo（周末原型）",
+      "tags": ["周末原型", "双人合作", "休闲"],
+      "desc": "用一个周末时间完成的双人合作 Demo：一位玩家控制鸟巢旋转，另一位控制下方篮子左右移动，两人配合稳稳接住从树上掉落的鸟蛋。",
+      "rotate": 90,
+      "status": "ready"
+    },
+    {
+      "id": "F0C815ZDKJ7",
+      "src_name": "ProjectDoodle_Mac.MP4",
+      "slug": "doodle-2018",
+      "title": "Doodle",
+      "year": "2018",
+      "project": "Doodle",
+      "tags": ["公司项目", "多人对战", "Shader"],
+      "desc": "多人实时对战涂鸦抢地盘 io 游戏（类似乌贼娘），前后实现 3D 与 2D 两个版本。负责 TextureRender + RawImage + Shader 涂色方案与点对点队列触摸操作模块。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C7RQU7F55",
+      "src_name": "IMG_0816.mp4",
+      "slug": "mianxiang-huoyan-2017",
+      "title": "面向火焰",
+      "year": "2017",
+      "project": "面向火焰",
+      "tags": ["GameJam", "潜行", "IndieGameCamp2017"],
+      "desc": "本人参加的第一个 Game Jam——心动网络 2017 Indie Game Camp 48 小时游戏创作挑战的参赛作品，围绕「篝火」主题：主角只能在阴影中行进，触碰到光会受伤；击杀拜火教信徒可让其篝火的光照范围缩小，为主角开辟行动空间。视频为现场拍摄的实机画面。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C815PJEQK",
+      "src_name": "AvocadoReborn_Mac.MP4",
+      "slug": "avocado-reborn-2017",
+      "title": "AvocadoReborn",
+      "year": "2017",
+      "project": "AvocadoReborn",
+      "tags": ["公司项目", "多人合作", "Photon"],
+      "desc": "多人实时合作闯关。负责 Spine IK 骨骼控制、行为树怪物 AI、json.net + PlayerPrefs + iCloud 防篡改存储模块、策划数据表 ↔ Prefab 双向修改模块。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C91P8PMRN",
+      "src_name": "ProjectTheater_Mac.MP4",
+      "slug": "theater-2017",
+      "title": "Theater",
+      "year": "2017",
+      "project": "Theater",
+      "tags": ["公司项目", "卡牌", "实时对战", "养成"],
+      "desc": "双人卡牌实时对战 + 养成（类似城与龙）。负责基于 Spine 的换装、高自由度城堡装配（含装配后的逻辑与动画表现），沿用并优化 Photon 网络与卡牌操作模块。",
+      "status": "ready"
+    },
+    {
+      "id": "F0C8234178D",
+      "src_name": "TungstenAvocado_Mac.MP4",
+      "slug": "tungsten-avocado-2016",
+      "title": "TungstenAvocado",
+      "year": "2016",
+      "project": "TungstenAvocado",
+      "tags": ["公司项目", "2D", "实时对战", "卡牌"],
+      "desc": "2D 卡牌实时对战（类似皇室战争）。负责高定制化手势模块（组合选牌、单点/区域施法）、Unity Tilemap 解析模块、A* 寻路与高复用英雄/怪物生产模块。",
+      "status": "ready"
+    },
+    {
+      "id": "local-img0084",
+      "src_name": "IMG_0084.MP4",
+      "slug": "eye-tracking-2016",
+      "title": "眼动仪动态画展",
+      "year": "2016",
+      "project": "眼动仪动态画展",
+      "tags": ["互动艺术", "眼动仪"],
+      "desc": "2016 年的互动数字艺术展项目：用眼动仪捕捉玩家眼睛在屏幕上的位置，以视线控制场景视角来探索游戏内容、与画中的动植物交互。本人负责接入眼动仪 SDK，并实现高复用的「类 AI」模块来管理动物行为。",
+      "status": "ready"
+    }
+  ]
 }
