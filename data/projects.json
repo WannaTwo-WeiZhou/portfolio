@@ -2,11 +2,12 @@
  "meta": {
   "title": "个人作品集",
   "subtitle": "Unity 客户端 · 游戏工具链 · 独立游戏",
-  "updated": "2026-10-10",
+  "updated": "2026-10-14",
   "counts": {
-   "ready": 16,
+   "ready": 14,
    "pending": 0,
-   "total": 16
+   "hidden": 2,
+   "total": 14
   }
  },
  "playable": [
@@ -27,52 +28,6 @@
  ],
  "videos": [
   {
-   "id": "local-1214",
-   "src_name": "1214.MP4",
-   "slug": "merge-ugc-2026",
-   "title": "二合休闲手游 · 角色换装与妆容 UGC",
-   "year": "2026",
-   "project": "二合休闲手游（公司项目）",
-   "tags": [
-    "公司项目",
-    "二合休闲",
-    "换装",
-    "UGC"
-   ],
-   "desc": "公司项目演示录像（2026）：一款二合（合成）休闲手游，棋盘以美妆/时尚道具为合成素材，并结合剧情过场推进。本人负责其中角色换装、服装 DIY、角色换妆容等全部 UGC 内容。",
-   "status": "ready",
-   "file": "merge-ugc-2026.mp4",
-   "poster": "assets/posters/merge-ugc-2026.jpg",
-   "duration": 1298.63,
-   "width": 432,
-   "height": 960,
-   "src_bytes": 131602524,
-   "out_bytes": 71154749
-  },
-  {
-   "id": "local-1215",
-   "src_name": "1215.MP4",
-   "slug": "diy-ugc-tool-2026",
-   "title": "角色 DIY + 服装 UGC 工具（跨项目）",
-   "year": "2026",
-   "project": "角色 DIY / 服装 UGC 工具（公司项目）",
-   "tags": [
-    "公司项目",
-    "工具链",
-    "UGC",
-    "Editor 工具"
-   ],
-   "desc": "跨项目复用的角色 DIY 与服装 UGC 工具演示：外观编辑（Appearance）下含染色 Dye、材质 Material、形体 Shape、裁切 Cutting 与贴花库 Decal Library 等模块，让美术/策划在多项目间复用同一套角色定制能力。视频为编辑器实机操作。",
-   "status": "ready",
-   "file": "diy-ugc-tool-2026.mp4",
-   "poster": "assets/posters/diy-ugc-tool-2026.jpg",
-   "duration": 311.42,
-   "width": 960,
-   "height": 480,
-   "src_bytes": 43854060,
-   "out_bytes": 17299317
-  },
-  {
    "id": "F0C8112FPFV",
    "src_name": "______2025-01-26_13.31.39.mov",
    "slug": "luomiou-2025",
@@ -87,14 +42,14 @@
    ],
    "desc": "Global Game Jam 2025 参赛作品，当届主题「Bubble」。一款类柏青哥的休闲游戏：寄居蟹「螺密欧」向水缸上方的朱丽蟹吐泡泡表达爱意，玩家发射泡泡匹配消除、累积连击。视频为 2025-01-26 的实机演示。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV1ELFNeMEB4/",
    "file": "luomiou-2025.mp4",
    "poster": "assets/posters/luomiou-2025.jpg",
    "duration": 229.92,
    "width": 998,
    "height": 1780,
    "src_bytes": 584291615,
-   "out_bytes": 31439383,
-   "bilibili": "https://www.bilibili.com/video/BV1ELFNeMEB4/"
+   "out_bytes": 31439383
   },
   {
    "id": "F0C895XQ0AD",
@@ -111,14 +66,14 @@
    ],
    "desc": "Unity 开发者社区「团结游戏开发挑战」参赛作品，主题「It never ends」；与朋友合作完成的肉鸽弹珠游戏。视频为游戏实机演示。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV14uCBYYEJd/",
    "file": "niuma-2024.mp4",
    "poster": "assets/posters/niuma-2024.jpg",
    "duration": 132.13,
    "width": 1352,
    "height": 756,
    "src_bytes": 12799520,
-   "out_bytes": 3802892,
-   "bilibili": "https://www.bilibili.com/video/BV14uCBYYEJd/"
+   "out_bytes": 3802892
   },
   {
    "id": "F0C91JLLV96",
@@ -134,14 +89,14 @@
    ],
    "desc": "CIGA2021 参赛作品，同屏对战 IO 类游戏。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/",
    "file": "xiaochenai-2021.mp4",
    "poster": "assets/posters/xiaochenai-2021.jpg",
    "duration": 169.71,
    "width": 1920,
    "height": 1080,
    "src_bytes": 223144057,
-   "out_bytes": 13528193,
-   "bilibili": "https://www.bilibili.com/video/BV1Zh411h79w/"
+   "out_bytes": 13528193
   },
   {
    "id": "F0C7RR4C0QP",
@@ -157,14 +112,14 @@
    ],
    "desc": "CIGA2020 参赛作品，益智类节奏游戏。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/",
    "file": "defects-2020.mp4",
    "poster": "assets/posters/defects-2020.jpg",
    "duration": 175.2,
    "width": 1920,
    "height": 1080,
    "src_bytes": 63739521,
-   "out_bytes": 12541392,
-   "bilibili": "https://www.bilibili.com/video/BV1yi4y1g7vw/"
+   "out_bytes": 12541392
   },
   {
    "id": "F0C857RDKF0",
@@ -180,14 +135,14 @@
    ],
    "desc": "IndieGameCamp2019 参赛作品，益智类连线解谜游戏。",
    "status": "ready",
+   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/",
    "file": "starling-2019.mp4",
    "poster": "assets/posters/starling-2019.jpg",
    "duration": 92.4,
    "width": 1280,
    "height": 720,
    "src_bytes": 40775173,
-   "out_bytes": 4331455,
-   "bilibili": "https://www.bilibili.com/video/BV11R4y1T7Kr/"
+   "out_bytes": 4331455
   },
   {
    "id": "F0C857LNMSS",

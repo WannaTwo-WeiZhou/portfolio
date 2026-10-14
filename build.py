@@ -222,11 +222,20 @@ def main():
               f"{info['size']/1e6:6.1f}MB -> {v['out_bytes']/1e6:5.1f}MB ({ratio*100:.0f}%)"
               + ("  [transcoded]" if enc else "  [cached]"))
 
-    man["meta"]["counts"] = {"ready": ready, "pending": pending, "total": len(man["videos"])}
+    # `hidden: true` in manifest.json keeps an entry (and its assets) in the repo but
+    # publishes nothing about it: the page never sees the card, the tag filter, or the
+    # counts. Used for employer footage that must not be shown publicly.
+    published = [v for v in man["videos"] if not v.get("hidden")]
+    hidden = len(man["videos"]) - len(published)
+    man["videos"] = published
+    ready = sum(1 for v in published if v.get("status") == "ready")
+    pending = len(published) - ready
+    man["meta"]["counts"] = {"ready": ready, "pending": pending, "hidden": hidden,
+                             "total": len(published)}
     with open(DATA, "w", encoding="utf8") as f:
         json.dump(man, f, ensure_ascii=False, indent=1)
     total = sum(v.get("out_bytes", 0) for v in man["videos"])
-    print(f"\nready={ready} pending={pending} published video bytes={total/1e6:.1f} MB")
+    print(f"\nready={ready} pending={pending} hidden={hidden} published video bytes={total/1e6:.1f} MB")
     print("wrote", DATA)
 
 

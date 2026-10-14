@@ -52,6 +52,10 @@ python3 -m http.server 8080   # 然后打开 http://localhost:8080/
 `manifest.json` 里的可选字段 `rotate`（0 / 90 / 180 / 270，顺时针）用于校正「手机竖着录横屏游戏」的片段
 （如 `egg-catch-2018`）：编码与封面都会先 `transpose` 再缩放，`projects.json` 里的 `width`/`height` 按旋转后的实际尺寸写。
 
+可选字段 `hidden: true` 表示**不发布**该条目：`data/projects.json` 里不会出现它（卡片、标签筛选、计数都看不到），
+但 `_src/` 源文件与 `assets/` 转码产物保留在仓库里，取消该字段后重新 `python3 build.py` 即可恢复展示。
+用于不能再公开的雇主项目录像。
+
 ## 待办
 
 - 源视频已齐：16 条条目全部有 `_src/` 源文件；本地汇总目录为 `~/Documents/Pictures/作品`。
